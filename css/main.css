@@ -1,0 +1,132 @@
+@font-face {
+  font-family: monospace;
+  src: url(../Font/Space_Mono/SpaceMono-Bold.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../Font/Montserrat-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+#container {
+  margin: auto;
+  max-width: 1200px;
+}
+#container h2 {
+  padding: 40px 24px;
+}
+#container .objetos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 200px;
+}
+#container .objetos img {
+  width: 540px;
+}
+#container .objetos .textos h1 {
+  font-size: 64px;
+  line-height: 94.78px;
+  color: #333333;
+}
+#container .objetos .textos p {
+  padding-top: 24px;
+  padding-bottom: 64px;
+  font-size: 24px;
+  line-height: 35.54px;
+  color: #4F4F4F;
+}
+#container .objetos .textos button {
+  font-size: 14px;
+  padding: 24px 43px;
+  background-color: #333333;
+  border: none;
+}
+#container .objetos .textos button a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 24px;
+  font-family: "montserrat";
+  text-align: center;
+  color: #BDBDBD;
+  margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+  #container {
+    padding: 24px 24px;
+  }
+  #container h2 {
+    font-size: 24px;
+  }
+  #container .objetos {
+    display: flex;
+    flex-direction: column;
+  }
+  #container .objetos img {
+    width: 287px;
+  }
+  #container .objetos .textos h1 {
+    font-size: 48px;
+    line-height: 71px;
+    color: #333333;
+  }
+  #container .objetos .textos p {
+    padding-top: 30px;
+    padding-bottom: 64px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+  }
+  #container .objetos .textos button {
+    font-size: 14px;
+    padding: 24px 43px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+  }
+}
+@media (max-width: 480px) {
+  #container h2 {
+    font-size: 24px;
+  }
+  #container .objetos {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px;
+  }
+  #container .objetos img {
+    width: 287px;
+  }
+  #container .objetos .textos h1 {
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+  }
+  #container .objetos .textos p {
+    padding-top: 30px;
+    padding-bottom: 64px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+  }
+  #container .objetos .textos button {
+    font-size: 14px;
+    padding: 24px 43px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
