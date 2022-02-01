@@ -14,8 +14,10 @@
 }
 
 #container {
+  height: 1080px;
   margin: auto;
-  max-width: 1200px;
+  width: 1440px;
+  border-radius: 8px;
 }
 #container h2 {
   padding: 40px 24px;
@@ -53,9 +55,7 @@
 }
 
 footer {
-  width: 100%;
-  position: absolute;
-  bottom: 24px;
+  padding-bottom: 24px;
   font-family: "montserrat";
   text-align: center;
   color: #BDBDBD;
